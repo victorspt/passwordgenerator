@@ -4,7 +4,7 @@ class PasswordGenerator {
 
   /**
    * Store the charset that will be used for generating the next passwords.
-   * @param {string[]} charset - An array of characters.
+   * @param {string} charset - A string of characters.
    */
   useCharset(charset) {
     this.#charset = charset;
