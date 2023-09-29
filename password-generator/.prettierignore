@@ -1,0 +1,8 @@
+# Vim files:
+*~
+*.swo
+*.swn
+*.swp
+
+# npm packages:
+node_modules/

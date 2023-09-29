@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "password-generator": "file:password-generator",
+    "prettier": "^3.0.3"
+  }
+}
