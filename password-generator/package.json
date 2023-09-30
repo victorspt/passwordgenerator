@@ -1,6 +1,6 @@
 {
   "name": "password-generator",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "A tool for generating random passwords with customizable settings.",
   "main": "index.js",
   "scripts": {
