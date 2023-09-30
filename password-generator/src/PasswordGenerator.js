@@ -1,6 +1,12 @@
+const { ALLCHARSETS } = require("./charsets");
+
 class PasswordGenerator {
   #charset;
   #charsetLength;
+
+  constructor() {
+    this.useCharset(ALLCHARSETS);
+  }
 
   /**
    * Store the charset that will be used for generating the next passwords.
