@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "description": "A tool for generating random passwords with customizable settings.",
   "main": "index.js",
+  "bin": {
+    "pwgen": "./bin/pwgen.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
