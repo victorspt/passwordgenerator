@@ -6,7 +6,9 @@ const pg = new PasswordGenerator();
 
 const DEFAULT_LENGTH = 50;
 
-const passLength = DEFAULT_LENGTH;
+const args = process.argv.slice(2);
+
+const passLength = args[0] || DEFAULT_LENGTH;
 
 const randomPass = pg.random(passLength);
 
